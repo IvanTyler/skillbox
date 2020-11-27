@@ -1,7 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="" />
+    <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerLight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerMedium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerMedium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerRegular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/fonts/MullerRegular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/accommodation9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/arrow-right-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/bathtub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/google-plus-social-logotype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/hanger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/heating.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/hotel-key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/numbers-luxury.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/parking.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/personal-area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/personal-area.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/reception.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/security-box.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/services1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/services2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/services3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/services4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/star-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/star-yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/swimming-pool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/tripadvisor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/img/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layout.html-markup/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2.7_editorconfig__1205.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/2.7_Skillbox_Layout.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/3.9_Как_должно_выглядеть-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/3.9_Как_должно_выглядеть2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/Gilroy-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/Gilroy-ExtraBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/Gilroy-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/Gilroy-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/Gilroy-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/Gilroy-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/GraphikLCG-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/fonts/GraphikLCG-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/img/2.7_site1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/img/2.7_site2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/img/return.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/2/program.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/3.9_start.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-css/__MACOSX/._.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2.7_editorconfig__1205.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/2.7_Skillbox_Layout.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/img/2.7_site1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/img/2.7_site2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/program.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-html/__MACOSX/._.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/5.8_01_Homepage_v1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/financial.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/gps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/gps.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/health.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/legacy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/memorial.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/img/place.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-markup/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/introduction/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft/css.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/2.7_Skillbox_Layout.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/Gilroy-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/Gilroy-ExtraBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/Gilroy-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/Gilroy-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/Gilroy-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/Gilroy-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/GraphikLCG-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/fonts/GraphikLCG-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/2.7_site1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/2.7_site2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/base-css.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/base-html.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/introduction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/return.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/img/work-layout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/modules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/2/program.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/4.4_hotels.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/4.4_modules.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/accommodation9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/bathtub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/google-plus-social-logotype.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/hanger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/heating.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/hotel-key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/numbers-luxury.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/parking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/reception.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/security-box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/services1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/services2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/services3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/services4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/star-grey.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/star-yellow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/swimming-pool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/tripadvisor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work-with-the-layout/img-hotels/vk.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +170,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/skillbox" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kq7ktLGPbkUeRI9HnWToyivzfK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +201,7 @@
       <updated>1606416414967</updated>
       <workItem from="1606416416020" duration="392000" />
       <workItem from="1606485469586" duration="2156000" />
-      <workItem from="1606488156285" duration="1332000" />
+      <workItem from="1606488156285" duration="3964000" />
     </task>
     <servers />
   </component>
