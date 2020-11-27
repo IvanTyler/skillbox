@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="15" viewBox="0 0 144 15">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+        fill: #c93;
+        font-family: FontAwesome;
+      }
+
+      .cls-2 {
+        font-family: MullerRegular;
+      }
+    </style>
+  </defs>
+  <text id="_Личный_кабинет" data-name=" Личный кабинет" class="cls-1" x="0.082" y="-3.47"><tspan class="cls-2"> Личный кабинет</tspan></text>
+</svg>
