@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="catalog javascript added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       <workItem from="1606485469586" duration="2156000" />
       <workItem from="1606488156285" duration="9800000" />
       <workItem from="1606503940331" duration="17000" />
-      <workItem from="1606503974096" duration="16000" />
+      <workItem from="1606503974096" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="workspace added">
       <created>1606497775198</created>
