@@ -1,167 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="catalog javascript added">
-      <change afterPath="$PROJECT_DIR$/JavaScript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerMedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerMedium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/fonts/MullerRegular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/accommodation9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/arrow-right-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/bathtub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/forward.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/google-plus-social-logotype.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/hanger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/heating.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/hotel-key.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/numbers-luxury.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/parking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/personal-area.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/personal-area.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/reception.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/security-box.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/services1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/services2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/services3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/services4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/star-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/star-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/swimming-pool.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/tripadvisor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/img/vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/Layout.html-markup/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2.7_editorconfig__1205.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/2.7_Skillbox_Layout.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/3.9_Как_должно_выглядеть-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/3.9_Как_должно_выглядеть2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/Gilroy-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/Gilroy-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/Gilroy-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/Gilroy-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/Gilroy-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/Gilroy-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/GraphikLCG-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/fonts/GraphikLCG-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/img/2.7_site1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/img/2.7_site2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/img/return.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/2/program.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/3.9_start.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-css/__MACOSX/._.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2.7_editorconfig__1205.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/2.7_Skillbox_Layout.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/img/2.7_site1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/img/2.7_site2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/program.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/base-html/__MACOSX/._.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/5.8_01_Homepage_v1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/financial.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/gps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/gps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/health.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/legacy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/memorial.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/img/place.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/html-markup/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/introduction/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/soft/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/soft/css.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/soft/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/soft/project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/2.7_Skillbox_Layout.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/Gilroy-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/Gilroy-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/Gilroy-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/Gilroy-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/Gilroy-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/Gilroy-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/GraphikLCG-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/fonts/GraphikLCG-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/2.7_site1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/2.7_site2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/base-css.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/base-html.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/introduction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/return.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/img/work-layout.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/modules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/2/program.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/4.4_hotels.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/4.4_modules.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/accommodation9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/bathtub.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/google-plus-social-logotype.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/hanger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/heating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/hotel-key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/numbers-luxury.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/parking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/reception.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/security-box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/services1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/services2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/services3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/services4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/star-grey.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/star-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/swimming-pool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/tripadvisor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layaut/work-with-the-layout/img-hotels/vk.svg" afterDir="false" />
+    <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +47,7 @@
       <updated>1606416414967</updated>
       <workItem from="1606416416020" duration="392000" />
       <workItem from="1606485469586" duration="2156000" />
-      <workItem from="1606488156285" duration="4236000" />
+      <workItem from="1606488156285" duration="6363000" />
     </task>
     <task id="LOCAL-00001" summary="workspace added">
       <created>1606497775198</created>
@@ -212,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606497775198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="catalog javascript added">
+      <created>1606497936985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606497936985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,13 +71,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace added" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace added" />
+    <MESSAGE value="catalog javascript added" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalog javascript added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606497870839">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606497935497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606497870839" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606497935497" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1606416805359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

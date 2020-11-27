@@ -1,1 +1,3 @@
-console.log('привет мир');
+$ (function() {
+    console.log('привет мир');
+});
