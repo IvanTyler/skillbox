@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/fonts.css" afterDir="false" />
+    <list default="true" id="6edcdc64-9efb-4679-9bc1-b329c9d1662c" name="Default Changelist" comment="catalog javascript added">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,9 @@
       <updated>1606416414967</updated>
       <workItem from="1606416416020" duration="392000" />
       <workItem from="1606485469586" duration="2156000" />
-      <workItem from="1606488156285" duration="6363000" />
+      <workItem from="1606488156285" duration="9800000" />
+      <workItem from="1606503940331" duration="17000" />
+      <workItem from="1606503974096" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="workspace added">
       <created>1606497775198</created>
@@ -75,13 +75,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="catalog javascript added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606497935497">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606503913779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606497935497" />
-    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1606416805359">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606503913779" />
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1606503955612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606416805359" />
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1606503955612" />
   </component>
 </project>
