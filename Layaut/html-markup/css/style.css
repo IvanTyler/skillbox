@@ -69,6 +69,22 @@ html {
     text-align: center;
 }
 
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #414141;
+}
+
+.section-description{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.31;
+    color: #787878;
+}
+
 .container {
     max-width: 1200px;
     margin-left: auto;
@@ -180,6 +196,7 @@ html {
 .section-do{
     padding-top: 140px;
     padding-bottom: 100px;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .section-description{
@@ -193,10 +210,36 @@ html {
 
 .section-do-item{
     flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
 }
 
 .section-do-item:not(:last-child){
     margin-right: 30px;
+}
+
+.section-do-icon{
+    margin-bottom: 33px;
+}
+
+.section-do-item-heading{
+    margin-bottom: 18px;
+    font-size: 20px;
+    line-height: 1;
+    color: #1c1c1c;
+    font-weight: 600;
+}
+
+.section-do-item-description {
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #787878;
 }
 /* What we Do */
 
@@ -206,6 +249,11 @@ html {
 .section-clients{
     padding-top: 90px;
     padding-bottom: 100px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.section-clients-heading{
+    margin-bottom: 45px;
 }
 
 .section-clients-list{
@@ -214,15 +262,32 @@ html {
 
 .section-clients-item{
     flex: 1 1 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 35px 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
 }
 
 .section-clients-item:not(:last-child){
     margin-right: 30px;
 }
 
+.section-clients-testimonial{
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #787878;
+}
+
 .section-clients-user{
     display: flex;
     align-items: center;
+    padding-top: 28px;
+    border-top: 1px solid #e9e9e9;
 }
 
 .section-clients-avatar{
@@ -231,6 +296,18 @@ html {
     border: 2px solid #3172b9;
     border-radius: 50%;
     margin-right: 15px;
+}
+
+.section-clients-username{
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.section-clients-user-description{
+    font-size: 14px;
+    color: #787878;
 }
 
 /* Our Happy Clients */
