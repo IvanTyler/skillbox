@@ -30,6 +30,6 @@
 	src: url('../fonts/MullerBold.woff2') format('woff2'),
 		url('../fonts/MullerBold.woff') format('woff');
 	font-display: swap;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 }

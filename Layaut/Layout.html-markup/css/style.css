@@ -30,6 +30,9 @@ input, button{
 }
 
 .main-section-heading{
+    /* Блочная модель */
+    margin-left: 45px;
+
     /* Типографика */
     font-size: 40px;
     font-family: 'MullerRegular';
@@ -162,11 +165,6 @@ input, button{
     justify-content: space-between;
 }
 
-.section-heading-reservation{
-    /* Блочная модель */
-    margin-left: 45px;
-}
-
 .section-fast-reservation{
     /* Блочная модель */
     margin-right: 55px;
@@ -258,11 +256,6 @@ input, button{
 
 
 /* section-reservation-special-offers */
-.section-heading-special-offers{
-    /* Блочная модель */
-    margin-left: 45px;
-}
-
 .reservation-suites-text{
     /* Блочная модель */
     max-width: 330px;
@@ -336,6 +329,10 @@ input, button{
     padding-left: 45px;
 }
 
+.heading-description{
+    margin-left: 0;
+}
+
 .section-description-text{
     /* Блочная модель */
     max-width: 885px;
@@ -356,11 +353,6 @@ input, button{
     .section-services{
         /* Блочная модель */
         margin-top: 67px;
-    }
-
-    .services-section-heading{
-        /* Блочная модель */
-        margin-left: 45px;
     }
 
     .container-section-services-item{
@@ -480,11 +472,6 @@ input, button{
         margin-right: -10px;
     }
 
-    .section-heading-advantages{
-        /* Блочная модель */
-        margin-left: 45px;
-    }
-
     .article-advantages-description-item{
         /* Блочная модель */
         width: 275px;
@@ -566,11 +553,6 @@ input, button{
         margin-top: 25px;
         margin-left: -12px;
         margin-right: -12px;;
-    }
-
-    .accommodation-section-heading{
-        /* Блочная модель */
-        margin-left: 45px;
     }
 
     .article-accommodation-item{
@@ -703,3 +685,160 @@ input, button{
         border: solid 1px #dab469;
     }
 /* section-accommodation */
+
+/* section-contacts */
+.section-contacts{
+    margin-top: 70px;
+}
+
+.contacts-section-heading{
+    font-size: 32px;
+}
+
+.wrapper-contacts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-hotel-laguna{
+    max-width: 472px;
+    margin-top: 31px;
+    padding: 45px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.contacts-hotel-item{
+    display: flex;
+    padding: 25px 0 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.contacts-hotel-item:first-child{
+    padding-top: 0;
+}
+
+.contacts-hotel-heading{
+    flex: 1 1 35%;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: 'MullerBold';
+    color: #666666;
+}
+
+.hotel-description-address,
+.hotel-description-schedule{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'MullerRegular';
+    color: #414141;
+}
+
+.hotel-description-phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-contacts-link{
+    font-size: 16px;
+    color: #cc9933;
+    font-family: 'MullerRegular';
+}
+.description-contacts-link:not(:first-child){
+    margin-top: 10px;
+}
+
+.hotel-description-phone-text{
+    max-width: 230px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #c2c2c2;
+}
+.hotel-description-phone-text:not(:first-child){
+    margin-top: 8px;
+}
+
+.hotel-text-mail{
+    color: #cc9933;
+}
+
+.hotel-description-schedule{
+    max-width: 190px;
+}
+
+.contacts-hotel-description{
+    flex: 1 1 65%;
+}
+
+.contacts-see-route{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 212px;
+    height: 70px;
+    margin-top: 45px;
+    padding: 20 20px;
+    font-size: 16px;
+    font-family: 'MullerBold';
+    border: 1px solid #cc9933;
+    border-radius: 12px;
+    color: #cc9933;
+    cursor: pointer
+}
+
+.form-contacts-hotel-laguna{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 342px;
+    margin: auto;
+}
+
+.form-heading{
+    margin-left: 0;
+    text-align: center;
+}
+
+.from-input-contacts{
+    margin-top: 45px; 
+}
+
+.from-input-contacts,
+.textarea-contacts,
+.contacts-form-button{
+    margin-top: 23px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+
+.contacts-form-button,
+.from-input-contacts{
+    height: 70px;
+}
+
+.from-input-contacts,
+.textarea-contacts{
+    padding-left: 21px;
+    font-family: 'MullerRegular';
+    font-size: 16px;
+    background-color: #fff;
+    color: #a7a7a7;
+}
+
+.textarea-contacts{
+    height: 110px;
+    padding-top: 10px;
+}
+
+.contacts-form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MullerBold';
+    background-color: #cc9933;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* section-contacts */
