@@ -442,8 +442,8 @@
 
                     <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form-contacts-hotel-laguna">
                         <div class="main-section-heading form-heading">Напишите нам</div>
-                        <input required min="5" max="15" type="text" name="name" placeholder="Имя" class="from-input-contacts">
-                        <input required min="5" max="8" type="tel" name="phone" placeholder="+7 535-64-34" class="from-input-contacts">
+                        <input required minlength="4" maxlength="15" type="text" name="name" placeholder="Имя" class="from-input-contacts">
+                        <input required minlength="12" maxlength="12" type="tel" name="phone" placeholder="+7 535-64-34" class="from-input-contacts">
                         <textarea name="usermessage" cols="30" rows="10" placeholder="Сообщение..." class="textarea-contacts"></textarea>
                         <button class="contacts-form-button">Отправить</button>
                     </form>

@@ -689,38 +689,51 @@ input, button{
 /* section-contacts */
 .section-contacts{
     margin-top: 70px;
+    /* Блочная модель */
 }
 
 .contacts-section-heading{
+    /* Типографика */
     font-size: 32px;
 }
 
 .wrapper-contacts{
+    /* Блочная модель */
     display: flex;
     flex-wrap: wrap;
 }
 
 .contacts-hotel-laguna{
+    /* Блочная модель */
     max-width: 472px;
     margin-top: 31px;
     padding: 45px;
+
+    /* Оформление */
     background-color: #fff;
     border-radius: 12px;
 }
 
 .contacts-hotel-item{
+    /* Блочная модель */
     display: flex;
     padding: 25px 0 30px;
+
+    /* Оформление */
     border-bottom: 1px solid #cccccc;
 }
 
 .contacts-hotel-item:first-child{
+    /* Блочная модель */
     padding-top: 0;
 }
 
 .contacts-hotel-heading{
+    /* Блочная модель */
     flex: 1 1 35%;
     margin-right: 20px;
+
+    /* Типографика */
     font-size: 22px;
     font-family: 'MullerBold';
     color: #666666;
@@ -728,49 +741,61 @@ input, button{
 
 .hotel-description-address,
 .hotel-description-schedule{
+    /* Типографика */
     font-size: 16px;
-    line-height: 20px;
     font-family: 'MullerRegular';
     color: #414141;
+    line-height: 20px;
 }
 
 .hotel-description-phone{
+    /* Блочная модель */
     display: flex;
     flex-direction: column;
 }
 
 .description-contacts-link{
+    /* Типографика */
     font-size: 16px;
     color: #cc9933;
     font-family: 'MullerRegular';
 }
 .description-contacts-link:not(:first-child){
+    /* Блочная модель */
     margin-top: 10px;
 }
 
 .hotel-description-phone-text{
+    /* Блочная модель */
     max-width: 230px;
+
+    /* Типографика */
     font-size: 16px;
     line-height: 18px;
     color: #c2c2c2;
 }
 .hotel-description-phone-text:not(:first-child){
+    /* Блочная модель */
     margin-top: 8px;
 }
 
 .hotel-text-mail{
+    /* Типографика */
     color: #cc9933;
 }
 
 .hotel-description-schedule{
+    /* Блочная модель */
     max-width: 190px;
 }
 
 .contacts-hotel-description{
+    /* Блочная модель */
     flex: 1 1 65%;
 }
 
 .contacts-see-route{
+    /* Блочная модель */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -778,6 +803,8 @@ input, button{
     height: 70px;
     margin-top: 45px;
     padding: 20 20px;
+
+    /* Типографика */
     font-size: 16px;
     font-family: 'MullerBold';
     border: 1px solid #cc9933;
@@ -787,6 +814,7 @@ input, button{
 }
 
 .form-contacts-hotel-laguna{
+    /* Блочная модель */
     display: flex;
     flex-direction: column;
     flex-basis: 342px;
@@ -794,18 +822,30 @@ input, button{
 }
 
 .form-heading{
+    /* Блочная модель */
     margin-left: 0;
     text-align: center;
 }
 
 .from-input-contacts{
+    /* Блочная модель */
     margin-top: 45px; 
+}
+
+.textarea-contacts{
+    min-height: 30px;
+    max-height: 200px;
+    max-width: 342px;
+    min-width: 342px;
 }
 
 .from-input-contacts,
 .textarea-contacts,
 .contacts-form-button{
+    /* Блочная модель */
     margin-top: 23px;
+
+    /* Оформление */
     border-radius: 12px;
     border: none;
     outline: none;
@@ -813,104 +853,131 @@ input, button{
 
 .contacts-form-button,
 .from-input-contacts{
+    /* Блочная модель */
     height: 70px;
 }
 
 .from-input-contacts,
 .textarea-contacts{
+    /* Блочная модель */
     padding-left: 21px;
+
+    /* Типографика */
     font-family: 'MullerRegular';
     font-size: 16px;
-    background-color: #fff;
     color: #a7a7a7;
+
+    /* Оформление */
+    background-color: #fff;
 }
 
 .textarea-contacts{
+    /* Блочная модель */
     height: 110px;
     padding-top: 10px;
 }
 
 .contacts-form-button{
+    /* Блочная модель */
     display: flex;
     align-items: center;
     justify-content: center;
+    /* Типографика */
+
     font-family: 'MullerBold';
-    background-color: #cc9933;
     color: #fff;
+
+    /* Оформление */
+    background-color: #cc9933;
     cursor: pointer;
 }
 /* section-contacts */
 
-
 /* footer */
 .footer{
+    /* Блочная модель */
     margin-top: 22px;
     padding: 50px 52px;
     background-color: #333333;
+
+    /* Оформление */
     background-image: url(../img/sun.png);
     background-repeat: no-repeat;
     background-position: bottom right 176px;
 }
 
 .footer-container{
+    /* Блочная модель */
     display: flex;
 }
 
 .footer-description:first-child{
+    /* Блочная модель */
     margin-right: 20px;
 }
 
 .footer-description,
 .footer-social-networks{
+    /* Блочная модель */
     flex-grow: 1;
 }
 
 .footer-description-text{
+    /* Типографика */
     line-height: 35px;
 }
 
 .footer-description-text,
 .footer-description-contacts{
+    /* Типографика */
     font-family: 'MullerRegular';
     font-size: 16px;
     color: #fff;
 }
 
 .footer-description-text:not(:first-child){
+    /* Блочная модель */
     margin-top: 32px;
 }
 
 .footer-description-text-confidentiality{
+    /* Типографика */
     color: #b88b33;
     line-height: 18px;
 }
 
 .footer-social-networks{
+    /* Блочная модель */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
 .footer-social-networks-link:not(:first-child){
+    /* Блочная модель */
     margin-top: 21px;
 }
 
 .footer-description-contacts:not(:first-child){
+    /* Блочная модель */
     margin-top: 40px;
 }
 
 .footer-description-contacts-phone,
 .footer-description-contacts-mail{
+    /* Блочная модель */
     display: flex;
     flex-direction: column;
 }
 
 .footer-description-contacts-link,
 .footer-description-contacts-email{
+    /* Типографика */
     color: #b88b33;
 }
 .footer-description-contacts-link:not(:first-child),
 .footer-description-contacts-email:not(:first-child){
+    /* Блочная модель */
     margin-top: 10px;
 }
 /* footer */
