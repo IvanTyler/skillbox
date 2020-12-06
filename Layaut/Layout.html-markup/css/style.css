@@ -897,8 +897,14 @@ input, button{
 .footer{
     /* Блочная модель */
     margin-top: 22px;
-    padding: 50px 52px;
     background-color: #333333;
+}
+
+.footer-container{
+    /* Блочная модель */
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     /* Оформление */
     background-image: url(../img/sun.png);
@@ -906,18 +912,21 @@ input, button{
     background-position: bottom right 176px;
 }
 
-.footer-container{
-    /* Блочная модель */
-    display: flex;
-}
-
 .footer-description:first-child{
     /* Блочная модель */
+    flex-basis: 40%;
     margin-right: 20px;
 }
 
+.footer-description-container{
+    /* Блочная модель */
+    display: flex;
+    flex-basis: 60%;
+}
+
 .footer-description,
-.footer-social-networks{
+.footer-social-networks,
+.wrapper-footer-description-contacts{
     /* Блочная модель */
     flex-grow: 1;
 }
