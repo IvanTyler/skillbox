@@ -37,20 +37,20 @@
             <div class="container container-reservation">
                 <div class="section-fast-reservation">
                     <h2 class="main-section-heading section-heading-reservation">Быстрая бронь</h2>
-                    <form action="" class="section-reservation-form">
-                        <input type="text" class="reservation-form-input-item" name="city" id="city" placeholder="Город">
-                        <input type="text" class="reservation-form-input-item" name="room-category" id="room-category" placeholder="Категория номера">
-                        <input type="text" class="reservation-form-input-item" name="check-in-date" id="check-in-date" placeholder="Дата заселения">
-                        <input type="text" class="reservation-form-input-item" name="number-nights" id="number-nights" placeholder="Количество ночей">
-                        <input type="text" class="reservation-form-input-item" name="number-guests" id="number-guests" placeholder="Количество гостей">
+                    <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="section-reservation-form">
+                        <input required type="text" minlength="7" maxlength="20" class="reservation-form-input-item" name="city" placeholder="Город">
+                        <input required type="text" minlength="4" maxlength="10" class="reservation-form-input-item" name="room-category" placeholder="Категория номера">
+                        <input required type="text" minlength="6" maxlength="10" class="reservation-form-input-item" name="check-in-date" placeholder="Дата заселения">
+                        <input required type="text" minlength="2" maxlength="2" class="reservation-form-input-item" name="number-nights" placeholder="Количество ночей">
+                        <input required type="text" minlength="1" maxlength="10" class="reservation-form-input-item" name="number-guests" placeholder="Количество гостей">
+                        <div class="section-reservation-booking-offers">
+                            <button type="search" class="reservation-find-number">Найти номер</button>
+                            <span class="reservation-number-offers">
+                                <span class="reservation-number">9756</span>
+                                предложений доступно
+                            </span>
+                        </div>
                     </form>
-                    <div class="section-reservation-booking-offers">
-                        <button type="search" class="reservation-find-number">Найти номер</button>
-                        <span class="reservation-number-offers">
-                            <span class="reservation-number">9756</span>
-                            предложений доступно
-                        </span>
-                    </div>
                 </div>
 
                 <div class="section-reservation-special-offers">
