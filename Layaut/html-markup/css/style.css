@@ -375,6 +375,56 @@ html {
 }
 /* Contacts */
 
+/* section-waiting-for */
+.section-waiting-for{
+    padding: 120px 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.form-waiting-for{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.btn-submit, .input-waiting-for{
+    flex: 0 0 calc(25% - 26px);
+    height: 60px;
+    border-radius: 30px;
+}
+
+.input-waiting-for{
+    font-size: 16px;
+    padding: 0 26px;
+    color: #dadada;
+    outline: none;
+    border: 1px solid #9a9a9a;
+    font-weight: 300;
+}
+
+.input-waiting-for:not(:last-child){
+    margin-right: 19px;
+}
+
+.input-waiting-for:last-of-type{
+    margin-right: 32px;
+}
+
+.btn-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+/* section-waiting-for */
+
 /* footer */
 
 .footer-container{
