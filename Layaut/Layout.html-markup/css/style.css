@@ -882,9 +882,10 @@ input, button{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Типографика */
 
+    /* Типографика */
     font-family: 'MullerBold';
+    font-size: 16px;
     color: #fff;
 
     /* Оформление */
