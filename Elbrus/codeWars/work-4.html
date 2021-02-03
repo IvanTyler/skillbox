@@ -6,22 +6,16 @@
 </head>
 <body>
     <script>
-        
-    function bonusTime(salary, bonus) {
-      if (bonus === true){
-        let summa = salary * 10;
-        return `£${summa}`;
-      } else {
-        return `£${salary}`;
-      }
-    }
+        function fixTheMeerkat(arr) {
+            const reversed = arr.reverse();
+            return reversed;
+        }
 
-    let count = bonusTime(100000, true);
-    console.log(count);
+        let array = ["tail", "body", "head"];
+
+        fixTheMeerkat(array);
         
-    function bonusTime(salary, bonus) {
-      return bonus ? `£${10 * salary}` : `£${salary}`;
-    }
+        const fixTheMeerkat = ([tail, body, head]) => [head, body, tail];
         
     </script>
 </body>
