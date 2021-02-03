@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кафе пышка</title>    
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        .title-pyshka{
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .container-pyshka{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .rowspan-pyshka:first-child{
+            margin-top: 0;
+        }
+        
+        .rowspan-pyshka{
+            max-width: 250px;
+            font-style: italic;
+            border: solid 1px;
+            margin-top: 10px;
+            padding: 5px;
+        }
+        
+        .colspan-pyshka:first-child{
+            text-align: center;
+            font-weight: bold;
+        }
+        .colspan-pyshka{
+            border-bottom: solid 1px;
+        }
+        .colspan-pyshka:not(:first-child){
+            margin-top: 2px;
+        }
+        .colspan-pyshka{
+            padding-bottom: 2px;
+        }
+        
+        .baseCost{
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let baseCost = 30;
+        
+        let price_list_stuffings = ['Начинка','Ежевика - 40 рублей', 'Черника - 35 рублей', 'клубника - 45 рублей'];
+        
+        let price_list_toppings = ['Топпинг', 'Заварной крем - 20 рублей', 'Сахарная пудра 20 рублей', 'Малиновое варенье - 25 рублей', 'Шоколад - 30 рублей'];
+        
+        function menu_pyshka_cafe(stuffings, toppings, baseCost){
+            let arr_menu_pyshka = [];
+            
+            arr_menu_pyshka.push(stuffings);
+            arr_menu_pyshka.push(toppings);
+            
+            document.write('<section class="section-pyshka">');
+                document.write('<h1 class="title-pyshka">Меню Кафе "Пышка"</h2>');
+                document.write('<p class="baseCost">Базовая цена пышки - ' + baseCost + ' рублей</p>');
+                document.write('<div class="container-pyshka">');
+                for (let i = 0; i < arr_menu_pyshka.length; i++){
+                    document.write('<div class="rowspan-pyshka">');
+                    for(let j = 0; j < arr_menu_pyshka[i].length; j++){
+                        document.write('<div class="colspan-pyshka">' + arr_menu_pyshka[i][j] + '</div>');
+                    }
+                    document.write("</div>");
+                }
+            document.write("</section>");
+        }
+        
+        menu_pyshka_cafe(price_list_stuffings, price_list_toppings, baseCost);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Office</title>
+</head>
+<body>
+    <script>
+        let price_list = ['Пачка листов А4 - 200 рублей: 2 штуки', 'Набор скрепок - 35 рублей: 3 штуки', 'Булавка - 7 рублей: 10 штук', 'Синяя ручка - 15 рублей: 4 штуки'];
+        
+        let price = [200, 200, 35, 35, 35, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 15, 15, 15 ,15];
+        
+        function summa_goods(price_list, price){
+            let summa = 0;
+            for (let i = 0; i < price.length; i++){
+                summa += price[i];
+            }
+            
+            for (let i = 0; i < price_list.length; i++){
+                document.write(price_list[i] + "<br>");
+            }
+            
+            document.write("Итого Васе нужно заплатить: " + "<b>" + summa + " рублей </b>");
+        }
+        
+        summa_goods(price_list, price);
+        
+        
+        //Сделал, что смог, хотя мог еще подумать, но опять же время поздно.
+        //Хотел сделать, чтобы пользователь количество товара и складывать это количество с ценой
+        
+//        let count_price = [];
+//        
+//        count_price[0] = +prompt('Введите количество пачек листов А4');
+//        count_price[1] = +prompt('Введите количество наборов скрепок');
+//        count_price[2] = +prompt('Введите количество булавок');
+//        count_price[3] = +prompt('Введите количество синих ручек');
+//        
+//        let price_sheets = 200;
+//        
+//        for (let i = 0; i < count_price[2]; i++){
+//            let summa = 0;
+//            summa = (price_sheets + price_sheets);
+//            console.log(summa);
+//        }
+//        
+//        console.log(count_price);
+        
+    </script>
+</body>
+</html>

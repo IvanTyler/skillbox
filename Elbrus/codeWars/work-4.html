@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>healthy</title>
+</head>
+<body>
+    <script>
+        
+    function bonusTime(salary, bonus) {
+      if (bonus === true){
+        let summa = salary * 10;
+        return `£${summa}`;
+      } else {
+        return `£${salary}`;
+      }
+    }
+
+    let count = bonusTime(100000, true);
+    console.log(count);
+        
+    function bonusTime(salary, bonus) {
+      return bonus ? `£${10 * salary}` : `£${salary}`;
+    }
+        
+    </script>
+</body>
+</html>

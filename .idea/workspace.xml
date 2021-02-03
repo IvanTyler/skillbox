@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../var/www/newbicotender.ru" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +50,8 @@
       <workItem from="1606716236679" duration="49000" />
       <workItem from="1607537836271" duration="3382000" />
       <workItem from="1607548504506" duration="577000" />
-      <workItem from="1607549376470" duration="601000" />
+      <workItem from="1607549376470" duration="1292000" />
+      <workItem from="1608617137911" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1607546307328</created>
@@ -82,10 +83,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607548333698" />
-    <state x="419" y="115" key="FileChooserDialogImpl" timestamp="1607549094995">
+    <state x="419" y="115" key="FileChooserDialogImpl" timestamp="1608796295093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="419" y="115" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607549094995" />
+    <state x="419" y="115" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1608796295093" />
     <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1607546236078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

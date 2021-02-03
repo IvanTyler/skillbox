@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>healthy</title>
+</head>
+<body>
+    <script>
+        let week_steps = [8350, 6543, 4309, 9274, 8941];
+        let count_week_steps = week_steps.length;
+        
+        function week_steps_sum(weekSteps, countWeekSteps){
+            let summa_steps = 0;
+            for (let i = 0; i < weekSteps.length; i++){
+                summa_steps += weekSteps[i];
+            }
+            let count_sum_arr = summa_steps / countWeekSteps;
+            console.log(count_sum_arr);
+        }
+        
+        week_steps_sum(week_steps, count_week_steps);
+        
+    </script>
+</body>
+</html>

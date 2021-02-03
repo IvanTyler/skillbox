@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container-catalog-poduct">
+            <div class="catalog">
+                <div class="basket" id="basket">
+                    <div class="basket_title">Корзина</div>
+                    <div class="basket_summa">
+                        <div id="summa" class="summa">0</div>
+                    </div>
+                </div>
+                <div class="main-catalog-product">
+                    <div class="main-catalog-product_item">
+                        <img src="catalog.jpg" alt="">
+                        <div class="name" id="catalog_1">Сапоги</div>
+                        <div class="price">45000</div>
+                        <div class="buy">Добавить в корзину</div>
+                    </div>
+                    <div class="main-catalog-product_item">
+                        <img src="catalog.jpg" alt="">
+                        <div class="name" id="catalog_2">Куртка</div>
+                        <div class="price">30000</div>
+                        <div class="buy">Добавить в корзину</div>
+                    </div>
+                    <div class="main-catalog-product_item">
+                        <img src="catalog.jpg" alt="">
+                        <div class="name" id="catalog_3">Шапка</div>
+                        <div class="price">25000</div>
+                        <div class="buy">Добавить в корзину</div>
+                    </div>
+                    <div class="main-catalog-product_item" id="catalog_4">
+                        <img src="catalog.jpg" alt="">
+                        <div class="name" id="catalog_5">Пальто</div>
+                        <div class="price">15000</div>
+                        <div class="buy">Добавить в корзину</div>
+                    </div>
+                    <div class="main-catalog-product_item">
+                        <img src="catalog.jpg" alt="">
+                        <div class="name" id="catalog_5">Штаны</div>
+                        <div class="price">10000</div>
+                        <div class="buy">Добавить в корзину</div>
+                    </div>
+                    <div class="main-catalog-product_item">
+                        <img src="catalog.jpg" alt="">
+                        <div class="name" id="catalog_6">Сумка</div>
+                        <div class="price">20000</div>
+                        <div class="buy">Добавить в корзину</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script>
+        let summaCat = parseInt(document.getElementById('summa').innerText);
+        
+        let buy = document.getElementsByClassName('buy');
+        for (let i = 0; i < buy.length; i++){
+            buy[i].onclick = function(event) {
+                
+                let target = event.target;
+                console.log(target);
+                
+                let basket = document.getElementById('basket');
+                
+                let price = parseInt(document.getElementsByClassName('price')[i].innerText);
+                
+                let catalog = document.createElement('div');
+                catalog.className = "product";
+                catalog.innerText = price;
+                basket.appendChild(catalog);
+                console.log(price[i]);
+                
+                summaCat = (summaCat + price);
+                console.log(summaCat);
+                
+                document.getElementsByClassName('summa')[0].innerText = summaCat;
+                
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>

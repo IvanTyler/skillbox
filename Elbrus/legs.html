@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let room_items = ['Человек', 'Кошка', 'Мышка', 'Светильник', 'Сороконожка'];
+        
+        let legs = [2, 4, 4, 1, 40];
+        
+        function legs_summa(room, legs){
+            var summa = 0;
+            for (let i = 0; i < legs.length; i++){
+                summa += legs[i];
+            }
+            
+            let  count_items = room_items.length;
+            for (let i = 0; i < room.length; i++){
+                document.write(room_items[i] + ' = ' + legs[i] + '<br>');
+                if(i == legs.length - 1){
+                    document.write("Сумма всех ножек в комнате " + summa + '<br>' + "Количество элементов в комнате " + count_items);
+                }
+            }
+        }
+        
+        legs_summa(room_items, legs);
+        
+        //Сделал, что смог, хотя мог еще подумать, но время поздно.
+        //Подскажите как можно улучшить, что почитать? Спасибо :)
+        
+        
+    </script>
+</body>
+</html>

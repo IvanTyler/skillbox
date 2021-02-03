@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Direction</title>
+</head>
+<body>
+    <script>
+        
+        let direction = ['Воргозор', 'Яковлевское', 'Онега', 'Покровское', 'Тамица'];
+        
+        function direction_check(gorod1, gorod2) {
+            if(direction.indexOf(gorod1) < direction.indexOf(gorod2)){
+                document.write('<span class="direction-good">Поехали 🚂</span>');
+            } else {
+                document.write('<span class="direction-good">Остаемся 😢</span>');
+            }
+            
+        }
+                      
+        direction_check('Онега','Воргозор');
+        
+    </script>
+</body>
+</html>
