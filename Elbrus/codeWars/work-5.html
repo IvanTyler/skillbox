@@ -8,15 +8,20 @@
 <body>
     <script>
         function hero(bullets, dragons){
-        let summa = dragons * 2;
-        if(bullets >= summa){
-            return true;
-        } if(bullets % dragons === 0){
-            return false;
-        } else {
-            return false;
+            let summa = dragons * 2;
+            if(bullets >= summa){
+                return true;
+            } if(bullets % dragons === 0){
+                return false;
+            } else {
+                return false;
+            }
         }
-}
+
+        function hero(bullets, dragons){
+            let neededBullets = dragons * 2;
+            return (bullets >= neededBullets ? true : false);
+        }
     </script>
 </body>
 </html>
