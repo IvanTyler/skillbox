@@ -14,8 +14,11 @@
             let result_b = b.reduce(function(summa, current){
                 return summa * current
             });
-            let difference = result_a - result_b;
-            return difference;
+            if(result_a > result_b){
+                return result_a - result_b;
+            } else{
+                return result_b - result_a;
+            }
         }
         findDifference([3, 2, 5], [1, 4, 4]);
     </script>
