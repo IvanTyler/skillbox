@@ -31,6 +31,18 @@
   let resultSum = summa - summa2;
   return resultSum;
 }
+
+function divCon(x) {
+  var s = 0;
+  for (let i = 0; i < x.length; i++) {
+    var n = x[i];
+    if (Number.isInteger(n))
+      s += n;
+    else
+      s -= parseInt(n);
+  }
+  return s;
+}
     </script>
 </body>
 </html>
