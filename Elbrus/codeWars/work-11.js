@@ -26,13 +26,21 @@ function trouble(x, t){
   }
 
 
-  function trouble(x, t){
-    for(var i=0; i<x.length; i++) {
-      if(x[i]+x[i+1]===t) {
-        x.splice(i+1,1);
-        i--;
+  function trouble (x, t) {
+  
+    let activeIndex = 0;
+    
+    while (activeIndex < x.length -1) {
+      let prev = x[activeIndex];
+      let next = x[activeIndex+1];
+      
+      if (prev + next == t) {
+        x.splice(activeIndex+1, 1);
+        activeIndex--;
+      } else {
+        activeIndex++;
       }
     }
     
-    return x;
+   return x;
   }
