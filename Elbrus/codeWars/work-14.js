@@ -6,7 +6,7 @@ function check_arr(arr) {
     for (let i = 0; i < arr.length; i++){
         if(min.length < arr[i].length){
             min = arr[i];
-        }
+        }   
     }
     return min.length;
 }
