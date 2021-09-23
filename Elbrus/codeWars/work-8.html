@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        function divCon(x){
-  let newArrayNumber = [];
-  let newArrayString = [];
-  for (let i = 0; i < x.length; i++){
-      if(typeof x[i] !== 'string'){
-          newArrayNumber.push(x[i]);    
-      } else if (typeof x[i] === 'string'){
-          newArrayString.push(parseInt(x[i]));
-      }
-  }
+        function divCon(x) {
+            let newArrayNumber = [];
+            let newArrayString = [];
+            for (let i = 0; i < x.length; i++) {
+                if (typeof x[i] !== 'string') {
+                    newArrayNumber.push(x[i]);
+                } else if (typeof x[i] === 'string') {
+                    newArrayString.push(parseInt(x[i]));
+                }
+            }
 
-  let summa = 0;
-  for (let i = 0; i < newArrayNumber.length; i++){
-      summa += newArrayNumber[i]; 
-  }
-  
-  let summa2 = 0;
-  for (let j = 0; j < newArrayString.length; j++){
-      summa2 += newArrayString[j];
-  }
+            let summa = 0;
+            for (let i = 0; i < newArrayNumber.length; i++) {
+                summa += newArrayNumber[i];
+            }
 
-  let resultSum = summa - summa2;
-  return resultSum;
-}
+            let summa2 = 0;
+            for (let j = 0; j < newArrayString.length; j++) {
+                summa2 += newArrayString[j];
+            }
 
-function divCon(x) {
-  var s = 0;
-  for (let i = 0; i < x.length; i++) {
-    var n = x[i];
-    if (Number.isInteger(n))
-      s += n;
-    else
-      s -= parseInt(n);
-  }
-  return s;
-}
+            let resultSum = summa - summa2;
+            return resultSum;
+        }
+
+        function divCon(x) {
+            var s = 0;
+            for (let i = 0; i < x.length; i++) {
+                var n = x[i];
+                if (Number.isInteger(n))
+                    s += n;
+                else
+                    s -= parseInt(n);
+            }
+            return s;
+        }
     </script>
 </body>
+
 </html>
