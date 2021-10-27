@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <script>
-        function warnTheSheep(queue) {
-    const reversed = queue.reverse();
-   
-    let index = reversed.indexOf("wolf");
-    console.log(index);
+  <script>
+    function warnTheSheep(queue) {
+      const reversed = queue.reverse();
 
-    if(index){ 
-      return `Oi! Sheep number ${index}! You are about to be eaten by a wolf!`;
-    } else{
-      return "Pls go away and stop eating my sheep";
+      let index = reversed.indexOf("wolf");
+      console.log(index);
+
+      if (index) {
+        return `Oi! Sheep number ${index}! You are about to be eaten by a wolf!`;
+      } else {
+        return "Pls go away and stop eating my sheep";
+      }
+
     }
-  
-}
 
-function warnTheSheep(queue) {
-  const position = queue.reverse().indexOf('wolf');
-  return position === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${ position }! You are about to be eaten by a wolf!`;
-}
-    </script>
+    function warnTheSheep(queue) {
+      const position = queue.reverse().indexOf('wolf');
+      return position === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${position}! You are about to be eaten by a wolf!`;
+    }
+  </script>
 </body>
+
 </html>

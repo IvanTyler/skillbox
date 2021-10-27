@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function findMultiples(integer, limit) {
   let newArr = [];
   console.log('limit >>>', limit)
@@ -12,7 +11,6 @@ function findMultiples(integer, limit) {
 }
 
 console.log(findMultiples(5, 50))
-=======
 let arr = [5,2,8];
 
 let indexPrev;
@@ -34,4 +32,3 @@ for (let i = 0; i < arr.length; i++){
         console.log(summa);
     }
 }
->>>>>>> 02a0abc59899f8569e8e450216661bd78f82add9
