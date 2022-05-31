@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>healthy</title>
 </head>
+
 <body>
     <script>
-        function getGrade (a, b, c) {
-        let summaArr = [a, b, c];
-        let count_week_steps = summaArr.length;
-        
-        let summa = 0;
-        for (let i = 0; i < summaArr.length; i++){
-          summa += summaArr[i]; 
+        function getGrade(a, b, c) {
+            let summaArr = [a, b, c];
+            let count_week_steps = summaArr.length;
+
+            let summa = 0;
+            for (let i = 0; i < summaArr.length; i++) {
+                summa += summaArr[i];
+            }
+
+            let count_sum_arr = summa / count_week_steps;
+
+            if (count_sum_arr >= 90 && count_sum_arr <= 100) {
+                return 'A';
+            } else if (count_sum_arr >= 80 && count_sum_arr < 90) {
+                return 'B';
+            } else if (count_sum_arr >= 70 && count_sum_arr < 80) {
+                return 'C';
+            } else if (count_sum_arr >= 60 && count_sum_arr < 70) {
+                return 'D';
+            } else if (count_sum_arr >= 0 && count_sum_arr < 60) {
+                return 'F';
+            }
+
         }
-    
-        let count_sum_arr = summa / count_week_steps;
-    
-        if(count_sum_arr >= 90 && count_sum_arr <= 100 ){
-              return 'A';
-        } else if(count_sum_arr >= 80 && count_sum_arr < 90 ){
-            return 'B';
-        } else if(count_sum_arr >= 70 && count_sum_arr < 80 ){
-            return 'C';
-        } else if(count_sum_arr >= 60 && count_sum_arr < 70 ){
-            return 'D';
-        } else if(count_sum_arr >= 0 && count_sum_arr < 60 ){
-            return 'F';
-        }
-    
-    }
-    
-    let grade = getGrade(95,90,93);
-    console.log(grade);
-        
+
+        let grade = getGrade(95, 90, 93);
+        console.log(grade);
+
     </script>
 </body>
+
 </html>

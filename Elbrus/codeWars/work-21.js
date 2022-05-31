@@ -7,17 +7,17 @@ function lastDigit(n, d) {
     for (let i = 0; i < d; i++) {
         newArrNumber.push(arrReverse[i])
     }
+    console.log(newArrNumber)
     const newArrNumberReverse = newArrNumber.reverse()
     if (d > arrNumber.length) {
         return newArrNumberReverse.filter((el, i) => {
             if (typeof i !== 'undefined') return el
         })
-    }
-    if (d > 0) {
+    } else if (d > 0) {
         return newArrNumberReverse
     } else if (d <= 0) {
         return []
     }
 }
 
-console.log(lastDigit(123767, 0))
+console.log(lastDigit(123767, 10))
