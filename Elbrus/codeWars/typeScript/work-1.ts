@@ -4,7 +4,7 @@ const minSum = (arr: number[]): number => {
     function minMaxArrFunck(arr: number[]): number[] {
         minMaxArr.push([
             ...arr.splice(arr.indexOf(Math.max(...arr)), 1),
-            ...arr.splice(arr.indexOf(Math.min(...arr)), 1)
+            ...arr.splice(arr.indexOf(Math.min(...arr)), 1),
         ])
         if (arr.length === 0) return minMaxArr
         return minMaxArrFunck(arr)

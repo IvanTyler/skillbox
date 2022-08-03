@@ -1,22 +1,21 @@
-// const sortItems = (array) => {
-//     const reducedArray = array.reduce((acc, curr) => {
+const sortItems = (array) => {
+    const reducedArray = array.reduce((acc, curr) => {
+        acc[curr] = (acc[curr] || 0) + 1;
+        return acc;
+    }, {})
 
-//         acc[curr] = (acc[curr] || 0) + 1;
-//         return acc;
-//     }, {})
+    console.log(reducedArray)
 
-//     console.log(reducedArray)
+    const keys = Object.keys(reducedArray);
 
-//     const keys = Object.keys(reducedArray);
+    return keys.sort((a, b) => (
+        reducedArray.b - reducedArray.a
+    ))
+}
 
-//     return keys.sort((a, b) => (
-//         reducedArray.b - reducedArray.a
-//     ))
-// }
+let arrStr = ['aaa', 'aaa', 'aaa', 'ccc', 'bbb', 'bbb'];
 
-// let arrStr = ['aaa', 'aaa', 'aaa', 'ccc', 'bbb', 'bbb'];
-
-// console.log(sortItems(arrStr))
+console.log(sortItems(arrStr))
 
 const arr = [
     { higth: '100' },

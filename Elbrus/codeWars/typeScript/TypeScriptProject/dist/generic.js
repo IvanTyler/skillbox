@@ -22,4 +22,44 @@ function widthCount(value) {
 // console.log(widthCount(['i', 'am', 'Array']));
 // console.log(widthCount({ length: 20 }));
 // ============
-//# sourceMappingURL=generic.js.map
+function getObjectValue(obj, key) {
+    return obj[key];
+}
+const person = {
+    name: 'Ivan',
+    age: 26,
+};
+// console.log(getObjectValue(person, 'name'))
+// console.log(getObjectValue(person, 'age'))
+// console.log(getObjectValue(person, 'job'))
+class Collection {
+    constructor(_items = []) {
+        this._items = _items;
+    }
+    add(item) {
+        this._items.push(item);
+    }
+    remove(item) {
+        this._items = this._items.filter(el => el !== item);
+    }
+    get items() {
+        return this._items;
+    }
+}
+function createAndValidateCar(model, year) {
+    const car = {};
+    if (model.length > 3) {
+        car.model = model;
+    }
+    if (year > 2000) {
+        car.year = year;
+    }
+    return car;
+}
+const cars3 = ['Ford', 'Audi'];
+cars3[1];
+const ford = {
+    model: 'Ford',
+    year: 2020
+};
+// ford.model = 'Ferrary'

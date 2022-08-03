@@ -44,3 +44,82 @@ const id1: ID = 1234
 const id2: ID = '1234'
 
 type SomeType = string | null | undefined
+
+
+type SumB = (a: number, b: number) => number
+interface SumA {
+    (a: number, b: number): number;
+}
+
+const sum: SumA = (a, b) => a + b
+
+function sumC(a: number, b: number): number {
+    return a + b
+}
+
+type B = {
+    name: string
+}
+interface A extends B {}
+
+const b: A = {
+    name: 'Ivan'
+}
+
+// Alias только для типов
+
+type UnicueId = number;
+
+interface User {
+    id: UnicueId
+}
+
+type NamesA = string[]
+
+interface NamesB {
+    [key: number]: string
+}
+
+const NB: NamesB = [
+    '3'
+]
+
+// кортеж - массив определенного размера длина которого неизменяется и выступает константой для массива
+
+type State = [number, (n : number) => void]
+
+const s: State = [123, (n) => {}]
+
+// Union
+
+type A2 = {
+    age: number
+}
+
+type B2 = {
+    name: string
+}
+
+type C2 = A2 | B2
+
+interface Rectn extends A2, B2 {}
+
+const objn: Rectn = {
+    age: 22,
+}
+
+interface BB2 {
+    name: string
+}
+interface BB2 {
+    age: string
+}
+
+const User23: BB2 = {
+    name: '',
+    age: ''
+}
+
+// интерфейсы используется для доменной логики, данные Api
+
+type Nullable<T> = T | null | undefined

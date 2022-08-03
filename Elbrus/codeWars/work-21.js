@@ -7,7 +7,6 @@ function lastDigit(n, d) {
     for (let i = 0; i < d; i++) {
         newArrNumber.push(arrReverse[i])
     }
-    console.log(newArrNumber)
     const newArrNumberReverse = newArrNumber.reverse()
     if (d > arrNumber.length) {
         return newArrNumberReverse.filter((el, i) => {

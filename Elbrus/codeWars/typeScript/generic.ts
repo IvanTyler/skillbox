@@ -11,5 +11,3 @@ const revers = <T>(array: T[]): T[] => {
 
 reverse(arrayOfNumbers)
 reverse(arrayOfStrings)
-
-

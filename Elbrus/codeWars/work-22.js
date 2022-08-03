@@ -15,17 +15,19 @@ function encode(str, n) {
         })
     })
 
+    
     const numbersAlp = myStrName.map(el => alphabet[el])
 
     const removed = nullDataStr.splice(0, myStrName.length);
 
     const stringСipher = numbersAlp.map((el, i) => el + removed[i])
+    return stringСipher
 
 }
 
-encode('masterpiece', 1939)
+console.log(encode('masterpiece', 1939))
 
-function encode(str, n) {
-    const key = String(n)
-    return Array.from(str, (c, i) => c.charCodeAt(0) - 96 + Number(key[i % key.length]))
-}
+// function encode(str, n) {
+//     const key = String(n)
+//     return Array.from(str, (c, i) => c.charCodeAt(0) - 96 + Number(key[i % key.length]))
+// }
