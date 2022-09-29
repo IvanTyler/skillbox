@@ -42,6 +42,11 @@ let newObj = arr.reduce((acc, curr, el) => {
     return acc
 }, {})
 
+const newObj2 = arr.reduce((acc, curr) => {
+    acc[Object.keys(curr)] = Object.values(curr).join('')
+    return acc
+}, {})
+
 console.log(newObj)
 
 let string = 'bitcoin take over the world maybe who knows perhaps'

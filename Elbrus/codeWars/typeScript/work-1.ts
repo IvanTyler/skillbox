@@ -1,5 +1,5 @@
 const minSum = (arr: number[]): number => {
-    
+
     const minMaxArr: any[] = []
     function minMaxArrFunck(arr: number[]): number[] {
         minMaxArr.push([
